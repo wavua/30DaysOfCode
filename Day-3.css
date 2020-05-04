@@ -1,0 +1,84 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+	height: 600px;
+	width:700px;
+	 
+	}
+
+	body{
+	background-color: white;
+	height: 100vh;
+	background-size: center;
+}
+.Login-page{
+	width: 500px;
+	
+	margin:auto;
+}
+p{
+	font-size: 30px;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+.form{
+	position: relative;
+	z-index: 1;
+	max-width: 500px;
+	margin: 0 auto 100px;
+	padding: 10px;
+	text-align: center;
+}
+.form input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background: #f2f2ff2;
+	width: 100%;
+	border:2;
+	border-style: ridge;
+	border-color: black;
+	border-radius:10px;
+	margin: 0 0 15px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+
+}
+.form button{
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #6675df;
+	width: 100%;
+	border:0;
+	padding: 15px;
+	color:white ;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 15px;
+
+
+.form  button:hover,.form button:active{
+	background: black;
+}
+.form .message{
+	margin: 15px 0 0;
+	color: aliceblue;
+	font-size: 12px;
+}
+.form .message a{
+	color: #4CAF50;
+	text-decoration: none;
+}
+.form .register-form{
+	display: none;
+}
